@@ -21,11 +21,18 @@ set tabstop=8
 set softtabstop=4
 set shiftwidth=4
 set autoindent
+set paste
 
 "# Toggle colors
 call togglebg#map("<F6>")
 
 "#highlight SpellBad term=reverse ctermbg=1
+"highlight SpellBad term=reverse ctermbg=1
+hi Error        guibg=Firebrick2 guifg=White
+hi ErrorMsg     guibg=Firebrick2 guifg=White
+
+let g:pyflakes_autostart = 0
+map <F7> :PyflakesToggle<cr>
 
 " # Turn off line numbers:
 "unset number 
