@@ -53,9 +53,9 @@ cd ~/dotfiles
 git submodule add git://github.com/scrooloose/nerdtree.git vim/bundle/nerdtree
 git submodule init && git submodule update
 
-cd ~/dotfiles
-git submodule add git://github.com/fholgado/minibufexpl.vim.git vim/bundle/minibufexpl
-git submodule init && git submodule update
+#cd ~/dotfiles
+#git submodule add git://github.com/fholgado/minibufexpl.vim.git vim/bundle/minibufexpl
+#git submodule init && git submodule update
 
 cd ~/dotfiles
 git submodule add git://github.com/altercation/vim-colors-solarized.git vim/bundle/vim-colors-solarized
