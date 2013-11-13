@@ -28,6 +28,9 @@
 [submodule "vim/bundle/ctags"]
 	path = vim/bundle/ctags
 	url = git://github.com/vim-scripts/ctags.vim--Johnson.git
-[submodule "vim/bundle/pyflakes-vim"]
-	path = vim/bundle/pyflakes-vim
-	url = git://github.com/georgexsh/pyflakes-vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vim/bundle/snipmate"]
+	path = vim/bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git

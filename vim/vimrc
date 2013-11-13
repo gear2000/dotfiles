@@ -21,7 +21,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-set paste
+
+"Had to remove set paste, otherwise snippet doesn't work
+"set paste
 
 "# Toggle colors
 call togglebg#map("<F6>")
@@ -51,6 +53,9 @@ map <silent><C-Left> <C-T>              " taglist - map Ctrl-LeftArrow to jump t
 map <silent><C-Right> <C-]>             " taglist - map Ctrl-RhitArrow to jump back to your source code
 map <silent><A-Right> :tabnext<CR>      " map Alt-RightArrow to jump to the next tab
 map <silent><A-Left> :tabprevious<CR>   " map Alt-LeftArrow to jump to the previous tab
+
+
+let mapleader = ","
 
 "map  <C-y> :tabn<CR>
 "map  <C-h> :tabp<CR>
