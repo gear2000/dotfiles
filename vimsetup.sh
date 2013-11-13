@@ -70,12 +70,15 @@ cd ~/dotfiles
 git submodule add git://github.com/vim-scripts/ctags.vim--Johnson.git vim/bundle/ctags
 git submodule init && git submodule update
 
-
 cd ~/dotfiles
 git submodule add https://github.com/wincent/Command-T.git vim/bundle/command-t
 git submodule init && git submodule update
 
+cd ~/dotfiles
+git submodule add https://github.com/Peeja/vim-cdo.git 
+git submodule init && git submodule update
 
+sudo apt-get install ctags
 
 #git submodule add http://github.com/tpope/vim-fugitive.git vim/bundle/fugitive
 #git submodule add https://github.com/msanders/snipmate.vim.git vim/bundle/snipmate
